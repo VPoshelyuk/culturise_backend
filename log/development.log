@@ -1,0 +1,1596 @@
+Started GET "/api/v1/listings" for ::1 at 2019-12-02 11:28:19 -0500
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (6.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:889:in `new_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `checkout_new_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:912:in `try_to_checkout_new_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:873:in `acquire_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:595:in `checkout'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:439:in `connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1121:in `retrieve_connection'
+activerecord (6.0.1) lib/active_record/connection_handling.rb:238:in `retrieve_connection'
+activerecord (6.0.1) lib/active_record/connection_handling.rb:206:in `connection'
+activerecord (6.0.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1" for ::1 at 2019-12-02 11:28:25 -0500
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (6.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:889:in `new_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `checkout_new_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:912:in `try_to_checkout_new_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:873:in `acquire_connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:595:in `checkout'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:439:in `connection'
+activerecord (6.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1121:in `retrieve_connection'
+activerecord (6.0.1) lib/active_record/connection_handling.rb:238:in `retrieve_connection'
+activerecord (6.0.1) lib/active_record/connection_handling.rb:206:in `connection'
+activerecord (6.0.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1" for ::1 at 2019-12-02 11:28:46 -0500
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.1) lib/active_record/migration.rb:587:in `check_pending!'
+activerecord (6.0.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/rails/actions" for ::1 at 2019-12-02 11:28:48 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3789946998696876465)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEvents (20191202161105)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (36.0ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "name" character varying, "image" character varying, "description" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191202161105"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUserFavorites (20191202161113)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.8ms)[0m  [1m[35mCREATE TABLE "user_favorites" ("id" bigserial primary key, "user_id" bigint NOT NULL, "event_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_25ed4cb388"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_9a1e3b3f19"
+FOREIGN KEY ("event_id")
+  REFERENCES "events" ("id")
+)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_user_favorites_on_user_id" ON "user_favorites"  ("user_id")[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE  INDEX  "index_user_favorites_on_event_id" ON "user_favorites"  ("event_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191202161113"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3789946998696876465)[0m
+Started GET "/api/v1" for ::1 at 2019-12-02 11:28:48 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3789946998696876465)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3789946998696876465)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/v1/events" for ::1 at 2019-12-02 11:29:50 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant Api::V1):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:297:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:297:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 11:30:10 -0500
+  
+ActionController::RoutingError (uninitialized constant Api::V1):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:297:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:297:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/users" for ::1 at 2019-12-02 11:32:06 -0500
+  
+ActionController::RoutingError (uninitialized constant Api::V1):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:297:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:297:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/events" for ::1 at 2019-12-02 11:32:22 -0500
+  
+ActionController::RoutingError (uninitialized constant EventsController
+Did you mean?  EventSerializer):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/events" for ::1 at 2019-12-02 11:32:53 -0500
+  
+ActionController::RoutingError (uninitialized constant EventsController
+Did you mean?  EventSerializer):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2019-12-02 11:32:54 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/events" for ::1 at 2019-12-02 11:32:54 -0500
+  
+ActionController::RoutingError (uninitialized constant EventsController
+Did you mean?  EventSerializer):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/events" for ::1 at 2019-12-02 11:32:54 -0500
+  
+ActionController::RoutingError (uninitialized constant EventsController
+Did you mean?  EventSerializer):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/events" for ::1 at 2019-12-02 11:32:55 -0500
+  
+ActionController::RoutingError (uninitialized constant EventsController
+Did you mean?  EventSerializer):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users" for ::1 at 2019-12-02 11:33:48 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/users" for ::1 at 2019-12-02 11:34:05 -0500
+  
+ActionController::RoutingError (uninitialized constant Api::V1):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:297:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:297:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (57.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hungry_hungry_jeffos_backend_development"[0m
+  [1m[35m (35.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hungry_hungry_jeffos_backend_test"[0m
+  [1m[35m (348.0ms)[0m  [1m[35mCREATE DATABASE "culturise_backend_development" ENCODING = 'unicode'[0m
+  [1m[35m (154.7ms)[0m  [1m[35mCREATE DATABASE "culturise_backend_test" ENCODING = 'unicode'[0m
+  [1m[35m (32.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(433808956734595995)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20191111151816)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191111151816"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateEvents (20191202161105)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "name" character varying, "image" character varying, "description" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191202161105"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUserFavorites (20191202161113)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.3ms)[0m  [1m[35mCREATE TABLE "user_favorites" ("id" bigserial primary key, "user_id" bigint NOT NULL, "event_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_25ed4cb388"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_9a1e3b3f19"
+FOREIGN KEY ("event_id")
+  REFERENCES "events" ("id")
+)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_user_favorites_on_user_id" ON "user_favorites"  ("user_id")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_user_favorites_on_event_id" ON "user_favorites"  ("event_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191202161113"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-12-02 18:24:25.781051"], ["updated_at", "2019-12-02 18:24:25.781051"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(433808956734595995)[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/v1/users" for ::1 at 2019-12-02 13:25:08 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 2.3ms | ActiveRecord: 3.7ms | Allocations: 3595)
+
+
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:25:15 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 115)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - http://www.nyartbeat.com/list/event_searchNear?latitude=40.705653&longitude=-74.013600&MaxResults=5&SortOrder=distance):
+  
+app/controllers/api/v1/events_controller.rb:3:in `initialize'
+app/controllers/api/v1/events_controller.rb:3:in `open'
+app/controllers/api/v1/events_controller.rb:3:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:26:02 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:27:38 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 119)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - http://www.nyartbeat.com/list/event_searchNear?latitude=40.721952&longitude=-74.000144&MaxResults=5&SortOrder=distance):
+  
+app/controllers/api/v1/events_controller.rb:3:in `initialize'
+app/controllers/api/v1/events_controller.rb:3:in `open'
+app/controllers/api/v1/events_controller.rb:3:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:30:08 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 113)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - http://www.nyartbeat.com/list/event_searchNear?latitude=40.721952&longitude=-74.000144&MaxResults=5&SortOrder=distance):
+  
+app/controllers/api/v1/events_controller.rb:3:in `initialize'
+app/controllers/api/v1/events_controller.rb:3:in `open'
+app/controllers/api/v1/events_controller.rb:3:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:30:10 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 90)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - http://www.nyartbeat.com/list/event_searchNear?latitude=40.721952&longitude=-74.000144&MaxResults=5&SortOrder=distance):
+  
+app/controllers/api/v1/events_controller.rb:3:in `initialize'
+app/controllers/api/v1/events_controller.rb:3:in `open'
+app/controllers/api/v1/events_controller.rb:3:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:30:11 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 90)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - http://www.nyartbeat.com/list/event_searchNear?latitude=40.721952&longitude=-74.000144&MaxResults=5&SortOrder=distance):
+  
+app/controllers/api/v1/events_controller.rb:3:in `initialize'
+app/controllers/api/v1/events_controller.rb:3:in `open'
+app/controllers/api/v1/events_controller.rb:3:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:34:24 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 112)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): "\"http://www.nyartbeat.com/list/event_searchNear?latitude=40.721952&longitude=-74.000144&MaxResults=5&SortOrder=distance\""):
+  
+app/controllers/api/v1/events_controller.rb:6:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:34:50 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 200 OK in 5191ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55727)
+
+
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:37:27 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 385ms (ActiveRecord: 0.0ms | Allocations: 29783)
+
+
+  
+NoMethodError (undefined method `each' for #<String:0x00007fdd60a132c8>):
+  
+app/controllers/api/v1/events_controller.rb:8:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:37:52 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms | Allocations: 29673)
+
+
+  
+NoMethodError (undefined method `each' for #<String:0x00007fdd6247c858>):
+  
+app/controllers/api/v1/events_controller.rb:7:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:37:53 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 268ms (ActiveRecord: 0.0ms | Allocations: 29499)
+
+
+  
+NoMethodError (undefined method `each' for #<String:0x00007fdd619beb78>):
+  
+app/controllers/api/v1/events_controller.rb:7:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:38:07 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 500 Internal Server Error in 7496ms (ActiveRecord: 0.0ms | Allocations: 2492)
+
+
+  
+NoMethodError (undefined method `each' for #<String:0x00007fdd61a151a8>):
+  
+app/controllers/api/v1/events_controller.rb:7:in `index'
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:38:30 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 200 OK in 2158ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28454)
+
+
+Started GET "/api/v1/events" for ::1 at 2019-12-02 13:39:16 -0500
+Processing by Api::V1::EventsController#index as HTML
+Completed 200 OK in 1180ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 56019)
+
+
+Started POST "/api/v1/events/40.7049254-74.0140651" for ::1 at 2019-12-02 15:56:39 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/events/40.7049254-74.0140651"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/events/40.7049254-74.0140651" for ::1 at 2019-12-02 15:57:53 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/events/40.7049254-74.0140651"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/events/40.7049254-74.0140651" for ::1 at 2019-12-02 15:58:05 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/events/40.7049254-74.0140651"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/events/4074" for ::1 at 2019-12-02 15:58:53 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/events/4074"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/events/4074" for ::1 at 2019-12-02 15:59:39 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/events/4074"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/events/4074" for ::1 at 2019-12-02 16:01:09 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/events/4074"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/" for ::1 at 2019-12-02 16:01:52 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/events/4074" for ::1 at 2019-12-02 16:02:25 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/events/4074"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.6) lib/rack/cors.rb:98:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:02:28 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"id"=>-33.309139699999996, "longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{"id"=>-33.309139699999996}}
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", -33], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Completed 404 Not Found in 17ms (ActiveRecord: 18.6ms | Allocations: 1213)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=-33.309139699999996):
+  
+app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:03:24 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"id"=>-33.309139699999996, "longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{"id"=>-33.309139699999996}}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", -33], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Completed 404 Not Found in 6ms (ActiveRecord: 6.9ms | Allocations: 789)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=-33.309139699999996):
+  
+app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:07:00 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"id"=>"40.7049254-74.0140651", "longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{"id"=>"40.7049254-74.0140651"}}
+  [1m[36mEvent Load (31.9ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (40.7049254-74.0140651) LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 35.0ms | Allocations: 813)
+
+
+  
+ActiveRecord::StatementInvalid (PG::DatatypeMismatch: ERROR:  argument of WHERE must be type boolean, not type numeric
+LINE 1: SELECT "events".* FROM "events" WHERE (40.7049254-74.0140651...
+                                               ^
+):
+  
+app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:07:20 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"id"=>"40.704925474.0140651", "longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{"id"=>"40.704925474.0140651"}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (40.704925474.0140651) LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.3ms | Allocations: 758)
+
+
+  
+ActiveRecord::StatementInvalid (PG::SyntaxError: ERROR:  syntax error at or near ".0140651"
+LINE 1: ...ELECT "events".* FROM "events" WHERE (40.704925474.0140651) ...
+                                                             ^
+):
+  
+app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:07:30 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"id"=>"4074", "longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{"id"=>"4074"}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (4074) LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.4ms | Allocations: 758)
+
+
+  
+ActiveRecord::StatementInvalid (PG::DatatypeMismatch: ERROR:  argument of WHERE must be type boolean, not type integer
+LINE 1: SELECT "events".* FROM "events" WHERE (4074) LIMIT $1
+                                               ^
+):
+  
+app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:07:37 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"id"=>"40.7049254-74.0140651", "longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{"id"=>"40.7049254-74.0140651"}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (40.7049254-74.0140651) LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.3ms | Allocations: 745)
+
+
+  
+ActiveRecord::StatementInvalid (PG::DatatypeMismatch: ERROR:  argument of WHERE must be type boolean, not type numeric
+LINE 1: SELECT "events".* FROM "events" WHERE (40.7049254-74.0140651...
+                                               ^
+):
+  
+app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:07:54 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"id"=>"40.7049254-74.0140651", "longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{"id"=>"40.7049254-74.0140651"}}
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (40.7049254-74.0140651) LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 5.7ms | Allocations: 792)
+
+
+  
+ActiveRecord::StatementInvalid (PG::DatatypeMismatch: ERROR:  argument of WHERE must be type boolean, not type numeric
+LINE 1: SELECT "events".* FROM "events" WHERE (40.7049254-74.0140651...
+                                               ^
+):
+  
+app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:10:32 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"id"=>"40.7049254-74.0140651", "longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{"id"=>"40.7049254-74.0140651"}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (40.7049254-74.0140651) LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 3.7ms | Allocations: 792)
+
+
+  
+ActiveRecord::StatementInvalid (PG::DatatypeMismatch: ERROR:  argument of WHERE must be type boolean, not type numeric
+LINE 1: SELECT "events".* FROM "events" WHERE (40.7049254-74.0140651...
+                                               ^
+):
+  
+app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:19:48 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+  [1m[36mEvent Create (2.2ms)[0m  [1m[32mINSERT INTO "events" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-12-02 21:19:48.277857"], ["updated_at", "2019-12-02 21:19:48.277857"]]
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/events_controller.rb:6:in `create'
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:21:46 -0500
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{}}
+Completed 200 OK in 281ms (Views: 0.1ms | ActiveRecord: 4.6ms | Allocations: 11352)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:23:05 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-74.0140651, "latitude"=>40.7049254, "event"=>{}}
+Completed 200 OK in 68ms (Views: 0.1ms | ActiveRecord: 3.7ms | Allocations: 967)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:23:31 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>"-74.0140651", "latitude"=>"40.7049254", "event"=>{}}
+Completed 200 OK in 62ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 898)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:26:17 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>"-74.000144", "latitude"=>"40.721952", "event"=>{}}
+Completed 200 OK in 161ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 56013)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:26:24 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>"-74.000144", "latitude"=>"40.721952", "event"=>{}}
+Completed 200 OK in 1575ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 56016)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:26:46 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-74.000144, "latitude"=>40.721952, "event"=>{}}
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 56006)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:29:21 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-74.000144, "latitude"=>40.789472, "event"=>{}}
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 900)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:29:29 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.972997, "latitude"=>40.789472, "event"=>{}}
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 899)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:29:42 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.972997, "latitude"=>40.789472, "event"=>{}}
+Completed 200 OK in 2712ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 902)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:30:37 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 220ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:30:43 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 146ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55394)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:31:58 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 136ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55392)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:34:32 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 205ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:35:23 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 372ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55392)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:35:39 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 175ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55388)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:35:54 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 139ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55391)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:36:26 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55392)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:36:50 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 147ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 55388)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:36:53 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 141ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55391)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:36:59 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 954ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55394)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:37:48 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55388)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:37:53 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 171ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 55393)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:38:05 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 187ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:38:25 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 155ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:38:44 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 135ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:40:52 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 176ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:41:22 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 205ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55396)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:49:23 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 134ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 55391)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:57:07 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 207ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 16:57:12 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 2392ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55400)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:05:03 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 4474ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55404)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:05:57 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 147ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:06:42 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 151ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:07:42 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 147ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55392)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:09:45 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 138ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55390)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:10:09 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 150ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55389)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:10:42 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 169ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55388)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:11:18 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 138ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55392)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:11:50 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"longitude"=>-73.960738, "latitude"=>40.775468, "event"=>{}}
+Completed 200 OK in 157ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55392)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:12:35 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 175ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55505)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:13:42 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 133ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55504)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:15:31 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 125ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55505)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:15:41 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 122ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 55504)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:16:34 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 109ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 55504)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:16:57 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55505)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:17:41 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 174ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 55502)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:17:46 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55508)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:18:20 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>0, "longitude"=>0, "event"=>{}}
+Completed 200 OK in 132ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1041)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:18:36 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55503)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:18:52 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55504)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:20:27 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.75, "longitude"=>-74.006, "event"=>{}}
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55510)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:21:59 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.7048043, "longitude"=>-74.0132789, "event"=>{}}
+Completed 200 OK in 139ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 898)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:22:47 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.7048342, "longitude"=>-74.0132886, "event"=>{}}
+Completed 200 OK in 138ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 897)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:23:47 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.7048342, "longitude"=>-74.0132886, "event"=>{}}
+Completed 200 OK in 64ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 897)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:24:20 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.7048342, "longitude"=>-74.0132886, "event"=>{}}
+Completed 200 OK in 66ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 897)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:24:52 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.704812000000004, "longitude"=>-74.013284, "event"=>{}}
+Completed 200 OK in 151ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 897)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:25:17 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.704812000000004, "longitude"=>-74.013284, "event"=>{}}
+Completed 200 OK in 78ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 897)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:26:14 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.704812000000004, "longitude"=>-74.013284, "event"=>{}}
+Completed 200 OK in 89ms (Views: 0.2ms | ActiveRecord: 8.3ms | Allocations: 924)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:26:27 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.704812000000004, "longitude"=>-74.013284, "event"=>{}}
+Completed 200 OK in 92ms (Views: 0.1ms | ActiveRecord: 4.2ms | Allocations: 924)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:26:43 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.704812000000004, "longitude"=>-74.013284, "event"=>{}}
+Completed 200 OK in 82ms (Views: 0.1ms | ActiveRecord: 3.8ms | Allocations: 925)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:27:20 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.7048206, "longitude"=>-74.0133048, "event"=>{}}
+Completed 200 OK in 209ms (Views: 0.1ms | ActiveRecord: 6.3ms | Allocations: 56121)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:27:32 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.7048206, "longitude"=>-74.0133048, "event"=>{}}
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 3.1ms | Allocations: 925)
+
+
+Started POST "/api/v1/events" for ::1 at 2019-12-02 17:27:44 -0500
+Processing by Api::V1::EventsController#create as */*
+  Parameters: {"latitude"=>40.7048206, "longitude"=>-74.0133048, "event"=>{}}
+Completed 200 OK in 156ms (Views: 0.1ms | ActiveRecord: 2.6ms | Allocations: 12087)
+
+
