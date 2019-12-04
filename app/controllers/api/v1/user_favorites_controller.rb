@@ -1,32 +1,34 @@
 class Api::V1::UserFavoritesController < ApplicationController
-    def index
-        users = User.all
-        render json: UserSerializer.new(users)
+    def user_favs
+        user_favorites = UserFavorite.select{ |check_user| check_user.user_id == params[:user_id]}
+        render json: user_favorites
     end
+
+    def index
+        user_favorites = UserFavorite.all
+        render json: user_favorites
+    end
+
 
     def create
-        user = User.find_or_create_by(username: params[:username], password: params[:password])
-        if user.save
-            render json: UserSerializer.new(user), status: :accepted
+        user_favorite = UserFavorite.find_or_create_by(user_favorites_params)
+        if user_favorite.save
+            render json: user_favorite
         else
-            render json: { errors: user.errors.full_messages }, status: :unprocessible_entity
+            render json: { errors: user_favorite.errors.full_messages }, status: :unprocessible_entity
         end
     end
 
 
-    def update
-        user = User.find(params[:id])
-        user.update(user_params)
-        if user.save
-            render json: UserSerializer.new(user), status: :accepted
-        else
-            render json: { errors: user.errors.full_messages }, status: :unprocessible_entity
-        end
+    def destroy
+        user_favorite = UserFavorite.find(params[:id])
+        user_favorite.destroy
+        render json: "Successfully deleted!"
     end
 
     private
 
-    def user_params
-        params.permit(:username, :password)
+    def user_favorites_params
+        params.permit(:user_id, :name, :venue_name, :venue_address, :venue_phone, :venue_access, :venue_opening, :venue_closing, :venue_schedule_details, :media, :description, :price, :date_start, :date_end, :days_before_end, :permanent_event, :latitude, :longitude, :image)
     end
 end

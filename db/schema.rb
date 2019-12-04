@@ -25,10 +25,26 @@ ActiveRecord::Schema.define(version: 2019_12_02_161113) do
 
   create_table "user_favorites", force: :cascade do |t|
     t.bigint "user_id", null: false
-    t.bigint "event_id", null: false
+    t.string "name"
+    t.string "venue_name"
+    t.string "venue_address"
+    t.string "venue_phone"
+    t.string "venue_access"
+    t.string "venue_opening"
+    t.string "venue_closing"
+    t.string "venue_schedule_details"
+    t.string "media"
+    t.string "description"
+    t.string "price"
+    t.string "date_start"
+    t.string "date_end"
+    t.string "days_before_end"
+    t.string "permanent_event"
+    t.string "image"
+    t.string "latitude"
+    t.string "longitude"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["event_id"], name: "index_user_favorites_on_event_id"
     t.index ["user_id"], name: "index_user_favorites_on_user_id"
   end
 
@@ -42,6 +58,5 @@ ActiveRecord::Schema.define(version: 2019_12_02_161113) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "user_favorites", "events"
   add_foreign_key "user_favorites", "users"
 end
