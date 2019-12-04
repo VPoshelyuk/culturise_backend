@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      resources :events
       resources :users
       resources :user_favorites
+      post "/nearest", to: "events#nearest"
+      get "/free", to: "events#free"
       post "/signup", to: "users#create"
       post "/login", to: "auth#login"
       get "/auto_login", to: "auth#auto_login"
