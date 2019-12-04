@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users
       resources :user_favorites
+      post "/ufav_show", to: "user_favorites#user_favs"
       post "/nearest", to: "events#nearest"
       get "/free", to: "events#free"
       post "/signup", to: "users#create"
